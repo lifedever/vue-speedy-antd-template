@@ -3,7 +3,7 @@ module.exports = require('vue-speedy-antd/conf')({
         'primary-color': '#0682a5',
     },
     admin: {
-        name: 'boss',
+        name: 'admin',
         entry: 'src/admin/main.js',
         title: 'Boss 后台管理'
     },
