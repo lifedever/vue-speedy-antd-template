@@ -3,13 +3,11 @@ import Inject from 'vue-speedy-antd/conf/admin-main-inject'
 import pages from 'vue-speedy-antd/src/admin/pages'
 import adminLayout from "vue-speedy-antd/src/layout/admin-layout";
 import modules from './modules'
-import menus from './menu'
 
 import '../assets/override.less'
 
 
 Vue.use(adminLayout, {
-    menus
 })
 
 Vue.use(Inject, {
