@@ -8,10 +8,10 @@
         "build": "vue-cli-service build"
     },
     "dependencies": {
-        "core-js": "^2.6.5",
+        "core-js": "^3.3.2",
         "vue": "^2.6.10",
-        "vue-router": "^3.0.3",
-        "vue-speedy-antd": "0.2.22",
+        "vue-router": "^3.1.3",
+        "vue-speedy-antd": "0.3.68",
         "vuex": "^3.0.1"
     },
     "devDependencies": {
