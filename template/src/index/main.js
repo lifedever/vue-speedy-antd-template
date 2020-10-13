@@ -5,7 +5,7 @@ import modules from './modules'
 
 Vue.use(Inject, {
     config: {
-        title: '业务前台页面',
+        title: process.env.VUE_APP_INDEX_SITE_NAME,
     },
     pages,
     modules

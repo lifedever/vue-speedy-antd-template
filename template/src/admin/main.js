@@ -12,8 +12,8 @@ Vue.use(adminLayout, {
 
 Vue.use(Inject, {
     config: {
-        title: 'Vue Speedy Ant Design',
-        shortTitle: 'VD',
+        title: process.env.VUE_APP_ADMIN_SITE_NAME,
+        shortTitle: process.env.VUE_APP_ADMIN_SITE_SHORT_NAME,
     },
     pages: pages,
     modules

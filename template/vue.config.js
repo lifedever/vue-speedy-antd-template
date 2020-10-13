@@ -5,11 +5,11 @@ module.exports = require('vue-speedy-antd/conf')({
     admin: {
         name: 'admin',
         entry: 'src/admin/main.js',
-        title: 'Boss 后台管理'
+        title: process.env.VUE_APP_ADMIN_SITE_NAME
     },
     index: {
         entry: 'src/index/main.js',
-        title: '业务前台'
+        title: process.env.VUE_APP_INDEX_SITE_NAME
     },
     title: 'Vue Speedy Ant Design',
     baseUrl: '/',
